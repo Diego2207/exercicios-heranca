@@ -1,0 +1,36 @@
+package br.com.zup.modelo;
+
+public class Designer extends Funcionario {
+	
+	private String comunicacao;
+
+	public Designer(String comunicacao, String area, String senioridade, int matricula, String tipodematricula) {
+		
+		// construtor
+		super(area, senioridade, matricula, tipodematricula);
+		this.comunicacao = comunicacao;
+	}
+	
+	//get e set
+	
+	public String getLinguagem() {
+		return comunicacao;
+	}
+	public void setLinguagem(String linguagem) {
+		this.comunicacao = linguagem;
+	}
+	
+	public String toString() {
+	
+		String modelo = "";
+		
+		modelo += "comunicacao -> " +this.getLinguagem() + "\n";
+		modelo += "Área -> " + super.getArea() + "\n";
+		modelo += "senioridade -> " + super.getSenioridade() + "\n";
+		modelo += "matricula -> " + super.getMatricula() + "\n";
+		modelo += "tipodematricula -> " +super.getTipodematricula() +"\n";
+		
+		return modelo;
+	}
+
+}

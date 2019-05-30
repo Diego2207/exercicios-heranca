@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.zup.modelo.Programador"/>
+    <fullyQualifiedTypeName name="br.com.zup.modelo.Designer"/>
+    <fullyQualifiedTypeName name="br.com.zup.modelo.Fullstack"/>
+    <fullyQualifiedTypeName name="com.br.exercicio.Programador"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="com.br.exercicio.Ator"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>
